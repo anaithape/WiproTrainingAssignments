@@ -1,0 +1,24 @@
+Assignment 2: Draw your Home Network Topology and explain how you are accessing the RPS Lab environment.
+
+Internet Router: This is the main router connecting your home network to the internet. 
+It manages incoming and outgoing traffic.
+
+Laptop, Smartphone, Smart TV: These devices are connected to the home network either via Wi-Fi or Ethernet. 
+They can access the internet and communicate with each other within the local network.
+
+Access Point: Provides wireless connectivity to devices in the home network. 
+It connects to the router and extends the Wi-Fi coverage area.
+
+
+Accessing the RPS Lab Environment:
+
+To access the RPS Lab environment from your home network, 
+you would typically need to connect to it using a remote access method such as VPN (Virtual Private Network) or 
+SSH (Secure Shell) tunneling:
+
+VPN: You can set up a VPN connection from your home network to the RPS Lab network. 
+This creates a secure tunnel over the internet, allowing you to access resources in the lab environment 
+as if you were physically there.
+
+SSH Tunneling: If the RPS Lab environment allows SSH access, you can establish an SSH tunnel from your home network 
+to a server in the lab. Through this tunnel, you can securely access lab resources and services

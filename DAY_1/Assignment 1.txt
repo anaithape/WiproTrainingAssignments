@@ -1,0 +1,34 @@
+Assigmnent 1
+
+Write the network terminologies with example.
+
+
+Router: A networking device that forwards data packets between computer networks. 
+Example: Cisco ISR 4000 Series Router.
+
+Switch: A networking device that connects devices together on a local area network (LAN) and forwards data to its destination based on MAC addresses. 
+Example: Cisco Catalyst 2960 Series Switch.
+
+Firewall: A network security device that monitors and controls incoming and outgoing network traffic based on predetermined security rules. 
+Example: Palo Alto Networks PA-Series Firewall.
+
+DNS (Domain Name System): A system that translates domain names to IP addresses, allowing users to access websites using human-readable names. 
+Example: google.com resolves to 172.217.1.174.
+
+IP Address: A unique numerical label assigned to each device connected to a network. 
+Example: 192.168.1.1
+
+MAC Address: A hardware address assigned to network interfaces for communication at the data link layer of a network segment. 
+Example: 00:1A:2B:3C:4D:5E
+
+Gateway: A node that serves as an entry and exit point for a network; often connects different types of networks. 
+Example: A router connecting a local network to the internet.
+
+Subnet: A logical subdivision of an IP network. Example: 192.168.1.0/24
+
+Protocol: A set of rules governing the format and transmission of data across a network. 
+Example: TCP/IP (Transmission Control Protocol/Internet Protocol).
+
+LAN (Local Area Network): A network that connects computers and devices in a limited geographical area, such as a home, school, or office building. 
+Example: Your home Wi-Fi network.
+
