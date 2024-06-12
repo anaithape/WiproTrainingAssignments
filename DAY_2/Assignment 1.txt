@@ -1,0 +1,46 @@
+Assignment 1: 
+SDLC Overview - 
+
+Create a one-page infographic that outlines the SDLC phases 
+(Requirements, Design, Implementation, Testing, Deployment), 
+highlighting the importance of each phase and how they interconnect.
+
+Software Development Life Cycle (SDLC) Phases:
+
+1. Requirements:
+   - Importance: This phase involves gathering and documenting the software requirements from stakeholders, users, and other 
+       relevant parties. It sets the foundation for the entire development process by defining what the software should accomplish
+       and its functionalities.
+
+   - Interconnect: Requirements inform the subsequent phases by guiding the design, implementation, testing, and deployment
+      processes. Any changes or updates to requirements may impact all other phases of the SDLC.
+
+2. Design:
+   - Importance: In this phase, the system architecture and detailed design are created based on the gathered requirements.
+      It defines the structure, behavior, and components of the software solution.
+   - Interconnect: The design phase builds upon the requirements phase, translating the identified requirements into a 
+      technical blueprint for development. It provides guidelines for implementation and testing activities.
+
+3. Implementation:
+   - Importance: Implementation involves the actual coding or programming of the software based on the design specifications.
+      It transforms the design into a working system, incorporating features, functionalities, and logic.
+   - Interconnect: Implementation directly follows the design phase, where developers use the design documents to write code.
+      Any discrepancies between the design and implementation are addressed to ensure alignment with the requirements.
+
+4. Testing:
+   - Importance: Testing verifies that the software meets the specified requirements and functions as intended. 
+      It identifies defects, errors, or inconsistencies in the software and ensures its reliability, functionality, and performance.
+   - Interconnect: Testing occurs concurrently with development but intensifies after implementation. 
+      Feedback from testing informs developers of issues that need to be fixed, requiring adjustments to the code or design.
+
+5. Deployment:
+   - Importance: Deployment involves releasing the software for production use, making it available to end-users. 
+      It includes installation, configuration, and rollout procedures to ensure a smooth transition from development to operational use.
+   - Interconnect: Deployment is the culmination of the SDLC, where the developed software is delivered to users. 
+      It relies on the successful completion of all previous phases to ensure that the final product meets user expectations and business needs.
+
+Interconnection:
+Each phase of the SDLC is interconnected and builds upon the outcomes of the previous phase. 
+Requirements inform design, design guides implementation, implementation feeds into testing, and testing validates 
+deployment readiness. Any changes or updates at any phase may necessitate revisions across the entire SDLC to maintain 
+consistency and alignment with project goals.

@@ -1,0 +1,46 @@
+Assignment 2: 
+
+Develop a case study analyzing the implementation of SDLC phases in a real-world engineering project.
+Evaluate how Requirement Gathering, Design, Implementation, Testing, Deployment, and Maintenance 
+contribute to project outcomes.
+
+
+Case Study: Implementation of SDLC Phases in a Real-World Engineering Project
+
+Project Overview:
+ABC Corporation is a leading automotive manufacturer aiming to develop a next-generation electric vehicle (EV) to meet increasing 
+consumer demand for eco-friendly transportation solutions. The project involves designing and manufacturing an EV with advanced 
+features such as long-range battery, autonomous driving capabilities, and seamless integration with smart devices.
+
+SDLC Phases Implementation:
+
+1. Requirement Gathering:
+   - The project team conducted extensive market research, surveys, and focus groups to understand consumer preferences and industry trends.
+   - Stakeholder meetings were held to gather input from various departments such as engineering, marketing, and finance.
+   - The requirements were documented in detail, specifying features, performance metrics, regulatory compliance, and budget constraints.
+
+2. Design:
+   - Based on the gathered requirements, the design team developed conceptual sketches, 3D models, and technical specifications for the EV.
+   - Engineers collaborated to define the vehicle architecture, including chassis design, battery placement, motor configuration, and onboard electronics.
+   - The design phase involved trade-off analysis to balance performance, cost, and manufacturability while ensuring compliance with safety and environmental standards.
+
+3. Implementation:
+   - Once the design was finalized, the manufacturing process began, involving procurement of materials, fabrication of components, and assembly of subsystems.
+   - Concurrently, software development teams worked on programming the vehicle's onboard systems, including the operating system, sensors, navigation, and connectivity features.
+   - Continuous integration practices were adopted to ensure seamless integration of hardware and software components.
+
+4. Testing:
+   - Rigorous testing was conducted at various stages of development to verify functionality, performance, and safety.
+   - Component-level testing involved bench testing of individual parts such as batteries, motors, and control systems.
+   - System-level testing included integration testing to validate interactions between hardware and software components.
+   - Comprehensive test plans were executed, covering scenarios such as extreme weather conditions, road handling, battery life, and emergency protocols.
+
+5. Deployment:
+   - Following successful testing and regulatory approvals, the EV entered production and was launched in the market.
+   - Marketing campaigns were rolled out to promote the EV's features, benefits, and competitive pricing.
+   - Distribution channels were established to ensure availability of the EV across key markets, both domestically and internationally.
+
+6. Maintenance:
+   - Post-deployment, the project team continued to monitor the performance of the EV through telemetry data, user feedback, and service reports.
+   - Regular maintenance schedules were established for servicing, software updates, and addressing any issues or recalls.
+   - Customer support channels were established to assist users with troubleshooting, maintenance, and upgrades.

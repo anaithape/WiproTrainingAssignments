@@ -1,0 +1,51 @@
+Assignment 3: 
+
+Research and compare SDLC models suitable for engineering projects. 
+Present findings on Waterfall, Agile, Spiral, and V-Model approaches, emphasizing their advantages, disadvantages, 
+and applicability in different engineering contexts.
+
+
+1. Waterfall Model:
+   - Advantages:
+     - Easy to understand and use, as it follows a sequential approach.
+     - Well suited for projects where requirements are well-defined and unlikely to change.
+     - Each phase has specific deliverables, making it easy to measure progress.
+   - Disadvantages:
+     - Lack of flexibility; once a phase is completed, it's difficult to go back and make changes.
+     - Not ideal for projects with evolving or unclear requirements.
+     - Testing is done at the end, which may lead to higher risks of finding defects late in the process.
+   - Applicability: Best suited for projects with clearly defined requirements and stable technology.
+
+2. Agile Model:
+   - Advantages:
+     - Highly flexible and adaptable to changing requirements.
+     - Promotes collaboration and customer involvement throughout the development process.
+     - Allows for early and frequent delivery of working software.
+   - Disadvantages:
+     - Requires active customer involvement, which might not always be feasible.
+     - Lack of emphasis on documentation might lead to issues in maintaining and understanding the system.
+     - Initial setup may require more time due to the need for continuous integration and testing frameworks.
+   - Applicability: Ideal for projects with evolving requirements or where rapid delivery is crucial.
+
+3. Spiral Model:
+   - Advantages:
+     - Incorporates elements of both waterfall and prototyping models, offering flexibility and risk management.
+     - Allows for early identification and mitigation of risks.
+     - Suitable for large and complex projects where risks need to be managed effectively.
+   - Disadvantages:
+     - Can be complex to manage due to its iterative nature.
+     - Requires considerable expertise to identify and mitigate risks effectively.
+     - May result in higher costs and longer development time due to the iterative cycles.
+   - Applicability: Best suited for large-scale projects with high levels of uncertainty and associated risks.
+
+4. V-Model:
+   - Advantages:
+     - Corresponds each stage of the development process with a testing phase, ensuring thorough verification and validation.
+     - Helps in early detection and correction of defects.
+     - Provides a clear and systematic approach to development and testing.
+   - Disadvantages:
+     - Can be rigid and less adaptable to changes compared to Agile or Spiral models.
+     - Requires detailed documentation and planning upfront.
+     - Testing activities may get delayed until the development phase is complete, leading to potential integration issues.
+   - Applicability: Suitable for projects with well-understood requirements and where testing is critical.
+
