@@ -1,0 +1,67 @@
+Array Sorting and Searching ---Pradnya Ithape
+
+
+a) Implement a function called BruteForceSort that sorts an array using the brute force approach. Use this function to sort an array 
+created with InitializeArray.
+
+import java.util.Arrays;
+
+public class BruteForceSort {
+    public static void main(String[] args) {
+        int[] array = initializeArray(10, 1, 100);
+        System.out.println("Original array:");
+        printArray(array);
+        bruteForceSort(array);
+        System.out.println("\nSorted array:");
+        printArray(array);
+    }
+
+    public static int[] initializeArray(int size, int min, int max) {
+        int[] array = new int[size];
+        for (int i = 0; i < size; i++) {
+            array[i] = (int) (Math.random() * (max - min + 1) + min);
+        }
+        return array;
+    }
+
+    public static void printArray(int[] array) {
+        for (int num : array) {
+            System.out.print(num + " ");
+        }
+        System.out.println();
+    }
+
+    public static void bruteForceSort(int[] array) {
+        Arrays.sort(array);
+    }
+}
+
+
+
+b) Write a function named PerformLinearSearch that searches for a specific element in an array and returns the index of the element
+ if found or -1 if not found.
+
+public class LinearSearch {
+    public static void main(String[] args) {
+        int[] array = {5, 10, 15, 20, 25, 30};
+        int target = 20;
+
+        int index = performLinearSearch(array, target);
+        if (index != -1) {
+            System.out.println("Element " + target + " found at index " + index + ".");
+        } else {
+            System.out.println("Element " + target + " not found in the array.");
+        }
+    }
+
+    public static int performLinearSearch(int[] array, int target) {
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] == target) {
+                return i;
+            }
+        }
+        return -1;
+    }
+}
+
+

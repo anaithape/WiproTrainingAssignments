@@ -1,0 +1,57 @@
+
+Develop a CustomQueue class with methods for Enqueue, Dequeue, Peek, and IsEmpty. Show how your queue can handle different 
+data types by enqueuing strings and integers, then dequeuing and displaying them to confirm FIFO order.
+
+import java.util.ArrayList;
+import java.util.EmptyStackException;
+import java.util.List;
+
+public class CustomQueue<T> {
+    private List<T> queue;
+
+    public CustomQueue() {
+        queue = new ArrayList<>();
+    }
+
+    public void enqueue(T element) {
+        queue.add(element);
+    }
+
+    public T dequeue() {
+        if (isEmpty()) {
+            throw new EmptyStackException();
+        }
+        return queue.remove(0);
+    }
+
+    public T peek() {
+        if (isEmpty()) {
+            throw new EmptyStackException();
+        }
+        return queue.get(0);
+    }
+
+    public boolean isEmpty() {
+        return queue.isEmpty();
+    }
+
+    public static void main(String[] args) {
+        CustomQueue<Object> queue = new CustomQueue<>();
+
+        queue.enqueue("First");
+        queue.enqueue(2);
+        queue.enqueue("Third");
+        queue.enqueue(4);
+
+        System.out.println("Dequeuing elements from the queue:");
+        while (!queue.isEmpty()) {
+            System.out.println("Dequeued: " + queue.dequeue());
+        }
+
+        try {
+            queue.dequeue();
+        } catch (EmptyStackException e) {
+            System.out.println("Tried to dequeue from an empty queue. Caught EmptyStackException.");
+        }
+    }
+}

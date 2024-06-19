@@ -1,0 +1,35 @@
+
+Create a package com.math.operations and include classes for various arithmetic operations. Demonstrate how to compile and run 
+these using the classpath.
+
+
+package com.math.operations;
+
+public class Addition {
+    public static int add(int a, int b) {
+        return a + b;
+    }
+}
+
+package com.math.operations;
+
+public class Subtraction {
+    public static int subtract(int a, int b) {
+        return a - b;
+    }
+}
+
+
+
+
+Demonstration :-
+
+Compile the classes
+
+javac -d . com/math/operations/Addition.java com/math/operations/Subtraction.java
+
+Run the classes with classpath
+
+java -cp . com.math.operations.Addition
+java -cp . com.math.operations.Subtraction
+

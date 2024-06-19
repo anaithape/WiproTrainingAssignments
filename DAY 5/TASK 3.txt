@@ -1,0 +1,36 @@
+Understanding Functions through Arrays ---Pradnya Ithape
+
+a) Write a recursive function named SumArray that calculates and returns the sum of elements in an array.
+demonstarte with example.
+
+public class SumArray {
+    public static void main(String[] args) {
+        int[] array = {1, 2, 3, 4, 5};
+        int sum = sumArray(array);
+        System.out.println("Sum of elements in the array: " + sum);
+    }
+
+    public static int sumArray(int[] array) {
+        if (array.length == 0) {
+            return 0;
+        } else {
+            int firstElement = array[0];
+            int[] restOfArray = new int[array.length - 1];
+            System.arraycopy(array, 1, restOfArray, 0, array.length - 1);
+            return firstElement + sumArray(restOfArray);
+        }
+    }
+}
+
+
+Demonstration with the same example :-
+
+You define an example array containing the integers {1, 2, 3, 4, 5}.
+You call the sumArray function with this array as an argument.
+Inside the sumArray function, it checks if the length of the array is 0. Since it's not, it proceeds to the recursive case.
+It extracts the first element of the array (which is 1) and creates a new array restOfArray containing the remaining elements {2, 3, 4, 5}.
+It recursively calls the sumArray function with the restOfArray.
+Inside the recursive call, it repeats the process until the length of the array becomes 0.
+When the length of the array becomes 0, it returns 0 (base case).
+The recursive calls start to return, each adding the first element of their respective arrays to the sum.
+Finally, the initial call to sumArray returns the sum of all elements in the array, which is printed as "Sum of elements in the array: 15".

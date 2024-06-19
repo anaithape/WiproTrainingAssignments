@@ -1,0 +1,35 @@
+String Operations ---Pradnya Ithape
+
+Write a method that takes two strings, concatenates them, reverses the result, and then extracts the middle substring of the given 
+length. Ensure your method handles edge cases, such as an empty string or a substring length larger than the concatenated string.
+
+public class StringUtil {
+    public static String extractMiddleSubstring(String str1, String str2, int length) {
+        if (str1 == null) {
+            str1 = "";
+        }
+        if (str2 == null) {
+            str2 = "";
+        }
+
+        String concatenated = str1.concat(str2);
+        String reversed = new StringBuilder(concatenated).reverse().toString();
+
+        int reversedLength = reversed.length();
+        if (length >= reversedLength) {
+            return reversed;
+        }
+
+        int startIndex = (reversedLength - length) / 2;
+        int endIndex = startIndex + length;
+        return reversed.substring(startIndex, endIndex);
+    }
+
+    public static void main(String[] args) {
+        System.out.println(extractMiddleSubstring("Pradnya", "Ithape", 3));
+        System.out.println(extractMiddleSubstring("", "Aana", 5));
+        System.out.println(extractMiddleSubstring("Barbie", "", 7));
+        System.out.println(extractMiddleSubstring(null, "Example", 4));
+        System.out.println(extractMiddleSubstring("Edge", "Case", 10));
+    }
+}
